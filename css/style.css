@@ -1,0 +1,157 @@
+/*
+Theme Name: Busy Square
+Author: Big Square
+Version: 0.00001
+
+[Table Of Contents] 
+
+	01- BODY
+	02- HEADERS 
+	03- GLOBAL STYLES 
+	04- MAIN CONTENT
+	05- SOCIAL MEDIA
+	06- MISC
+
+*/
+
+
+/*----------------------------------------------------------------------------- 
+=01 BODY 
+-----------------------------------------------------------------------------*/
+
+body {
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.1;
+	background: url(../images/bg_blurb.jpg) repeat-x;
+	background: url(../images/bg_wrapper.png) repeat-x;
+
+}
+
+
+
+
+#container {
+
+	width: 950px;
+	margin: 0 auto; 
+}
+
+
+
+#header {
+
+}
+
+	
+#logo {
+	clear: both;
+	margin-top: 100px;
+	border: 1px solid red;
+	float: left;
+	background: url(../images/logo.png) no-repeat;
+	width: 300px;
+	height: 50px;
+	text-indent: -99999em;	
+}
+
+
+.nav {
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+
+.nav ul li {
+	float: left;
+	}
+
+	
+.nav li a {
+	
+	color: #fff;
+	display: block;
+	width: 100px;
+	padding: 10px 0px;
+	
+}
+
+
+
+
+#socialMedia {
+	clear: both;
+
+	border: 1px solid yellow;
+	float: right;
+}
+
+#socialMedia ul li {
+	 display:inline-block;
+	 width:60px;
+	 height:60px;
+	 text-indent:-9999em;
+}
+
+#socialMedia ul li.linkedIn {
+	background:url(../images/socialNav.png) 0px 64px;
+}
+#socialMedia ul li.twitter {
+	background:url(../images/socialNav.png) -60px 64px; 
+}
+
+#socialMedia ul li.facebook {
+	background:url(../images/socialNav.png) -120px 64px; 
+}
+
+#socialMedia ul li.rss {
+	background:url(../images/socialNav.png) -180px 64px; 
+}
+
+
+
+#socialMedia ul li.linkedIn:hover {
+	background:url(../images/socialNav.png) 0px 0px; 
+}
+
+#socialMedia ul li.twitter:hover {
+	background:url(../images/socialNav.png) -60px 0px; 
+}
+
+#socialMedia ul li.facebook:hover {
+	background:url(../images/socialNav.png) -120px 0px; 
+}
+
+#socialMedia ul li.rss:hover {
+	background:url(../images/socialNav.png) -180px 0px; 
+}
+
+
+
+
+/*----------------------------------------------------------------------------- 
+=06 MISC 
+-----------------------------------------------------------------------------*/
+/*
+
+.clear {
+	clear: both;	
+}
+
+.imgright {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.imgleft {
+	float: left; 
+	margin: 0 10px 10px 0;
+}
+
+.imgborder {
+	border: 5px solid #CCC;	
+}
+
+*/
